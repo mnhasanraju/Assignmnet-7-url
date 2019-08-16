@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.header-section {
+	width: 100%;
+	float: left;
+	background-color: #ffff;
+	margin-top: 65px;
+}
+
+.one {
+
+}
+
+.hd-one {
+	font-size: 45px;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+
+}
+
+.two {
+
+}
+
+
+.cstm-nav {
+	color: #161616;
+
+}
+
+.nav-span {
+	padding: 0px 25px;
+
+}
+
+.head-underline {
+ 	border-bottom: 10px solid #e4e4e4;
+ 	display: block;
+ 	width: 100%;
+ 	margin-top: 30px;
+ }
+
+ .about-us {
+ 	width: 100%;
+ 	float: left;
+ 	padding-bottom: 120px;
+ }
+
+ .aboutus-content {
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	margin-top: 60px;
+ }
+
+ .contact-one {
+
+ }
+
+ .abt-head {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 53px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	
+ }
+
+  .contact-one p {
+  	margin-top: 90px;
+ 	text-align: justify;
+ }
+
+ .contact-two {
+ 	position: relative;
+
+ }
+
+ .pos-one {
+ 	position: absolute;
+
+ }
+
+ .pos-two {
+ 	position: absolute;
+ 	max-width: 450px;
+ 	left: 37%;
+    top: 30px;
+    margin: 0 auto;
+
+ }
+
+ .contact-two p {
+ 	margin-top: 370px;
+ 	text-align: justify;
+
+ }
+
+.footer-content {
+	width: 100%;
+	float: left;
+	background-color: #ef4035;
+}
+
+.footer-text {
+	width: 100%;
+	margin: 40px auto;
+	text-align: center;
+	
+}
+
+.footer-text p {
+	color: #ffff;
+}

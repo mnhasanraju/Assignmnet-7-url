@@ -1,0 +1,535 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.banner {
+	width: 100%;
+	float: left;
+	background: url(../img/back.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.overlay {
+	width: 100%;
+	background-color: #00000096;
+	float: left;
+}
+
+.home-content {
+	width: 100%;
+	margin-top: 65px;
+
+}
+
+.hd {
+	color: yellow;
+	font-size: 60px;
+	font-family: 'Courgette', cursive;
+
+}
+
+.cstm-nav {
+	color: #ffff;
+
+}
+
+.nav-span {
+	padding: 0px 25px;
+
+}
+
+.callus-badge {
+	margin-top: 140px;
+	font-size: 60px;
+	font-family: Myriad Pro;
+	font-weight: normal;
+
+}
+
+.callus-text {
+	margin-top: 30px;
+	color: #ffff;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.underline-one {
+	width: 20px;
+	border-bottom: 1px solid #ffff;
+	display: block;
+	margin-top: 75px;
+}
+
+.btn-cstm-one {
+    margin-top: 40px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #ffff;
+    width: 320px;
+    height: 60px;
+    margin-bottom: 290px;
+}
+
+.btn-cstm-one:hover {
+	color: #ffff;
+	transition: none;
+}
+
+
+
+.cont-link {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.cont-link:hover {
+	text-decoration: none;
+	color: #ffff;
+}
+
+
+/** Portfolio Section **/
+.portfolio-one {
+	width: 100%;
+	float: left;
+	background-color: #f6f6f6;
+}
+
+
+.portfolio-content {
+	width: 100%;
+	margin-top: 210px;
+}
+
+.port-hd {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	color: #333333;
+}
+
+.underline-two {
+	width: 20px;
+	border-bottom: 1px solid #333333;
+	display: block;
+	margin-top: 40px;
+}
+
+.port-text {
+	margin-top: 55px;
+	color: #919191;
+	font-size: 17px;
+	text-align: justify;
+	margin-bottom: 60px;
+}
+
+
+.two {
+	position: relative;
+	
+}
+
+.pos-one {
+	position: absolute;
+	max-width: 112%;
+
+}
+
+.pos-two {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    max-width: 270px;
+}
+
+
+/** Portfolio Two **/
+
+.portfolio-two {
+	width: 100%;
+	float: left;
+	background-color: #28282e;
+}
+
+.portfolio-two-content {
+	width: 100%;
+	margin-top: 130px;
+
+}
+
+.port-two-hd {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #ffff;
+
+}
+
+.underline-three {
+	width: 20px;
+	border-bottom: 1px solid #ffff;
+	display: block;
+	margin-top: 75px;
+}
+
+.port-two-text {
+	margin-top: 30px;
+	color: #ffff;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.cstm-two {
+	border: 1px solid #ffff;
+	width: 140px;
+	height: 60px;
+	text-transform: uppercase;
+
+	margin-top: 70px;
+	margin-bottom: 145px;
+
+}
+
+.btn-two-link {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.btn-two-link:hover {
+	text-decoration: none;
+	color: #ffff;
+}
+
+.car-two {
+	max-width: 100%;
+	display: block;
+	margin-top: 125px;
+
+}
+
+
+.footer-content {
+	width: 100%;
+	float: left;
+	background-color: #ef4035;
+}
+
+.footer-text {
+	width: 100%;
+	margin: 40px auto;
+	text-align: center;
+	
+}
+
+.footer-text p {
+	color: #ffff;
+}
+
+/* Mobile Device */
+@media (min-width: 320px) and (max-width: 500px)
+{
+
+
+.hd {
+	color: yellow;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+
+}
+
+.callus-badge {
+	margin-top: 80px;
+	font-size: 20px;
+	font-family: Myriad Pro;
+	font-weight: normal;
+
+}
+
+.callus-text {
+	margin-top: 20px;
+	color: #ffff;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.underline-one {
+	width: 20px;
+	border-bottom: 1px solid #ffff;
+	display: block;
+	margin-top: 50px;
+}
+
+.btn-cstm-one {
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #ffff;
+    width: 90px;
+    height: 20px;
+    margin-bottom: 100px;
+}
+
+.btn-cstm-one:hover {
+	color: #ffff;
+	transition: none;
+}
+
+
+
+.cont-link {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.cont-link:hover {
+	text-decoration: none;
+	color: #ffff;
+}
+
+/** Portfolio Section **/
+
+.port-hd {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #333333;
+}
+
+.underline-two {
+	width: 20px;
+	border-bottom: 1px solid #333333;
+	display: block;
+	margin-top: 30px;
+}
+
+.port-text {
+	margin-top: 55px;
+	color: #919191;
+	font-size: 17px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+
+.two {
+	position: relative;
+	
+}
+
+.pos-one {
+	position: absolute;
+	max-width: 100%;
+
+}
+
+.pos-two {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    max-width: 100%;
+}
+
+/** Portfolio Two **/
+
+
+
+.port-two-hd {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ffff;
+
+}
+
+.underline-three {
+	width: 20px;
+	border-bottom: 1px solid #ffff;
+	display: block;
+	margin-top: 75px;
+}
+
+.port-two-text {
+	margin-top: 30px;
+	color: #ffff;
+	font-size: 15px;
+	text-align: justify;
+}
+
+
+.btn-two-link {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.btn-two-link:hover {
+	text-decoration: none;
+	color: #ffff;
+}
+
+.car-two {
+	max-width: 60%;
+	display: block;
+	margin-top: 125px;
+
+}
+
+}
+
+/* TAB */
+@media (min-width: 501px) and (max-width: 768px)
+{
+
+.hd {
+	color: yellow;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+
+}
+
+.callus-badge {
+	margin-top: 80px;
+	font-size: 20px;
+	font-family: Myriad Pro;
+	font-weight: normal;
+
+}
+
+.callus-text {
+	margin-top: 20px;
+	color: #ffff;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.underline-one {
+	width: 20px;
+	border-bottom: 1px solid #ffff;
+	display: block;
+	margin-top: 50px;
+}
+
+.btn-cstm-one {
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #ffff;
+    width: 110px;
+    height: 25px;
+    margin-bottom: 100px;
+}
+
+.btn-cstm-one:hover {
+	color: #ffff;
+	transition: none;
+}
+
+
+
+.cont-link {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.cont-link:hover {
+	text-decoration: none;
+	color: #ffff;
+}
+
+/** Portfolio Section **/
+
+.port-hd {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #333333;
+}
+
+.underline-two {
+	width: 20px;
+	border-bottom: 1px solid #333333;
+	display: block;
+	margin-top: 30px;
+}
+
+.port-text {
+	margin-top: 55px;
+	color: #919191;
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+
+.two {
+	position: relative;
+	
+}
+
+.pos-one {
+	position: absolute;
+	max-width: 100%;
+
+}
+
+.pos-two {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    max-width: 40%;
+}
+
+/** Portfolio Two **/
+
+.portfolio-two {
+    width: 100%;
+    float: left;
+    background-color: #28282e;
+
+.port-two-hd {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ffff;
+
+}
+
+.underline-three {
+	width: 20px;
+	border-bottom: 1px solid #ffff;
+	display: block;
+	margin-top: 75px;
+}
+
+.port-two-text {
+	margin-top: 30px;
+	color: #ffff;
+	font-size: 15px;
+	text-align: justify;
+}
+
+
+.btn-two-link {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.btn-two-link:hover {
+	text-decoration: none;
+	color: #ffff;
+}
+
+.car-two {
+	max-width: 60%;
+	display: block;
+	margin-top: 125px;
+
+}
+
+}
